@@ -1,0 +1,15 @@
+public class ElectricCar extends Car {
+    private int batteryLevel;
+
+    public ElectricCar(String color, int speed, int batteryLevel) {
+        super(color, speed);
+        this.batteryLevel = batteryLevel;
+    }
+
+    public int getBatteryLevel() {
+        return batteryLevel;
+    }
+}
+ElectricCar myElectricCar = new ElectricCar("Blue", 120, 80);
+
+}
